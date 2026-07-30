@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🌦️ Weather App</h1>
+
+<select id="city">
+<option value="">Select City</option>
+<option value="Lahore">Lahore</option>
+<option value="Karachi">Karachi</option>
+<option value="Islamabad">Islamabad</option>
+<option value="Multan">Multan</option>
+<option value="Peshawar">Peshawar</option>
+</select>
+
+<button onclick="showWeather()">Check Weather</button>
+
+<div id="weatherBox">
+
+<h2 id="cityName"></h2>
+
+<p id="temperature"></p>
+
+<p id="condition"></p>
+
+<p id="humidity"></p>
+
+<p id="wind"></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
